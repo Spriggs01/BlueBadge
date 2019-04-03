@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlueBadge.Services
 {
-   public class RecipeService
+    public class RecipeService
     {
     }
 }

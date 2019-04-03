@@ -54,7 +54,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FavoriteRecipeCreate.cs" />
+    <Compile Include="FavoriteRecipeDelete.cs" />
+    <Compile Include="FavoriteRecipeDetails.cs" />
+    <Compile Include="FavoriteRecipeEdit.cs" />
+    <Compile Include="FavoriteRecipeIndex.cs" />
+    <Compile Include="MealCreate.cs" />
+    <Compile Include="MealDelete.cs" />
+    <Compile Include="MealDetails.cs" />
+    <Compile Include="MealEdit.cs" />
+    <Compile Include="MealIndex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecipeCreate.cs" />
+    <Compile Include="RecipeDelete.cs" />
+    <Compile Include="RecipeDetails.cs" />
+    <Compile Include="RecipeEdit.cs" />
+    <Compile Include="RecipeIndex.cs" />
+    <Compile Include="RecipeTypeCreate.cs" />
+    <Compile Include="RecipeTypeDelete.cs" />
+    <Compile Include="RecipeTypeDetails.cs" />
+    <Compile Include="RecipeTypeEdit.cs" />
+    <Compile Include="RecipeTypeIndex.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

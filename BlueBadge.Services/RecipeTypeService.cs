@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlueBadge.Services
 {
-  public  class RecipeTypeService
+    public class RecipeTypeService
     {
 
-        public int RecipeType { get; set; }
-        public string TypeName { get; set; }
-        public string Dietary { get; set; }
+       
     }
 }

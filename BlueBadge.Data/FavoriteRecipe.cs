@@ -7,20 +7,11 @@ using System.Threading.Tasks;
 
 namespace BlueBadge.Data
 {
-    public enum MealType
+    public class FavoriteRecipe
     {
-        mealType, MealDescription 
-
-    }
-
- public   class Meals
-    {
-
+        [Key]
+        public int FavoriteRecipeID { get; set; }
         public Guid UserID { get; set; }
         public int RecipeID { get; set; }
-
-        [Key]
-        public int MealID { get; set; }
-        public int MealKindID { get; set; }
     }
 }
