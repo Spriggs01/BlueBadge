@@ -180,7 +180,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -257,6 +256,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlueBadge.Data\BlueBadge.Data.csproj">
+      <Project>{178de7d4-b37e-4046-be89-1d0caf316090}</Project>
+      <Name>BlueBadge.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlueBadge.Models\BlueBadge.Models.csproj">
+      <Project>{b14b8c79-9715-4717-8477-5d6beb35f775}</Project>
+      <Name>BlueBadge.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlueBadge.Services\BlueBadge.Services.csproj">
+      <Project>{1762ca1c-5009-4072-9185-c44b20725ee3}</Project>
+      <Name>BlueBadge.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
