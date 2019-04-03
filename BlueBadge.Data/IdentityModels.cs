@@ -51,28 +51,12 @@ namespace BlueBadge.Data
         }
 
 
-        public DbSet<Meals> Meal { get; set; }
-        public DbSet<Recipe> Recipes { get; set; }
-        public DbSet<RecipeType> RecipeTypes { get; set; }
-        public DbSet<FavoriteRecipes> FavoriteRecipe { get; set; }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder
-                .Conventions
-                .Remove<PluralizingTableNameConvention>();
-
-            modelBuilder
-                .Configurations
-                .Add(new IdentityUserLoginConfiguration())
-                .Add(new IdentityUserRoleConfiguration());
+       
 
 
 
 
-
-
-        }
+        
 
     }
 }
