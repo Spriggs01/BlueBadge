@@ -22,5 +22,6 @@ namespace BlueBadge.Data
         [Key]
         public int MealID { get; set; }
         public int MealKindID { get; set; }
+        public MealType TypeOfMeal { get; set; }
     }
 }

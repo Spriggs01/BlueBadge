@@ -11,10 +11,19 @@ namespace BlueBadge.Data
     {
         [Key]
         public int RecipeID { get; set; }
+
+        [Required]
         public string RecipeTitle { get; set; }
+
+        [Required]
         public string Link { get; set; }
+
+
         public int Calories { get; set; }
+
+        [Required]
         public int RecipeKindID { get; set; }
+
         public string Image { get; set; }
 
     }

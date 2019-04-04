@@ -11,7 +11,11 @@ namespace BlueBadge.Data
     {
         [Key]
         public int RecipeKind { get; set; }
+
+        [Required]
         public string TypeName { get; set; }
+
+        [Required]
         public string Dietary { get; set; }
 
 
